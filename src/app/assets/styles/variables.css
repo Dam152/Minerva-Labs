@@ -1,0 +1,79 @@
+/* Variables for Colors  */
+:root {
+  /* Brand Colors */
+  --Black: #333333;
+  --Blue: #0099ff;
+
+  /* Black Colors */
+  --Body: #494949;
+  --Gray-2: #999;
+  --Color---White: #fff;
+}
+
+/*TYPOGRAPHY*/
+
+.heading-1 {
+  font-size: 6rem;
+  font-style: normal;
+  line-height: 110%;
+  letter-spacing: -0.9px;
+}
+.heading-2 {
+  font-size: 4.8rem;
+  font-style: normal;
+  line-height: 138%;
+}
+.heading-3 {
+  font-size: 4rem;
+  font-style: normal;
+  line-height: 48px;
+}
+.heading-4 {
+  font-size: 3.2rem;
+  font-style: normal;
+  line-height: 133%;
+}
+.heading-5 {
+  font-size: 2.4rem;
+  font-style: normal;
+  line-height: 28px;
+}
+.heading-6 {
+  font-size: 2rem;
+  font-style: normal;
+  line-height: 130%;
+}
+
+/* Body text */
+
+.large-text {
+  font-size: 2rem;
+  font-style: normal;
+  line-height: 34px;
+}
+.medium-text {
+  font-size: 1.8rem;
+  font-style: normal;
+  line-height: 160%;
+}
+.normal-text {
+  font-size: 1.8rem;
+  font-style: normal;
+  line-height: 25.2px;
+}
+.small-text {
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 156%;
+}
+
+/* Weight Text */
+.text-small {
+  font-weight: 500;
+}
+.text-medium {
+  font-weight: 600;
+}
+.text-bold {
+  font-weight: 700;
+}
