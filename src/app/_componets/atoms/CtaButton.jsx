@@ -8,10 +8,11 @@ export default function CtaButton({
   children,
   bg = colors["Blue"],
   theme = colors["White"],
-  size = "medium-text",
+  size = "normal-text",
   weight = "text-small",
   borderColor = colors["Blue"],
   hasBorder = false,
+  className = "",
   ...props
 }) {
   return (
@@ -20,7 +21,7 @@ export default function CtaButton({
         <Link
           href={href}
           {...props}
-          className={`px-[24px] py-[12px] flex items-center w-fit rounded-[4px] ${weight} ${size} hover:transition-all hover:duration-100 hover:opacity-60`}
+          className={`px-[24px] py-[12px] flex items-center w-fit rounded-[4px] ${weight} ${size} ${className} hover:transition-all hover:duration-100 hover:opacity-60`}
           style={{
             backgroundColor: bg,
             color: theme,
@@ -32,7 +33,7 @@ export default function CtaButton({
       ) : (
         <button
           {...props}
-          className={`px-[24px] py-[12px] flex items-center w-fit rounded-[4px] hover:transition-all hover:duration-100 hover:opacity-60 ${weight} ${size}`}
+          className={`px-[24px] py-[12px] flex items-center w-fit rounded-[4px] hover:transition-all hover:duration-100 hover:opacity-60 ${weight} ${size} ${className}`}
           style={{
             backgroundColor: bg,
             color: theme,

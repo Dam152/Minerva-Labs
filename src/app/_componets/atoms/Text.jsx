@@ -9,6 +9,7 @@ export default function Text({
   weight = "",
   href,
   children,
+  className,
   ...props
 }) {
   const Tag = tag;
@@ -18,7 +19,7 @@ export default function Text({
       <Link
         href={href}
         {...props}
-        className={`${size} ${weight}`}
+        className={`${size} ${weight} ${className}`}
         style={{ color: theme }}
       >
         {children}
