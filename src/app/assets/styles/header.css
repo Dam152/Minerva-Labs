@@ -1,0 +1,40 @@
+.menu-voice {
+  transition: all 200ms ease-in-out;
+}
+
+.menu-voice:hover {
+  color: var(--Blue) !important;
+}
+
+.close-icon {
+  color: var(--Color-White) !important;
+}
+
+.openMenu {
+  animation: openMenu 1s ease-in-out forwards;
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+@keyframes openMenu {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.closeMenu {
+  animation: closeMenu 1s ease-in-out forwards;
+}
+
+@keyframes closeMenu {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}

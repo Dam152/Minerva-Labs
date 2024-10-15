@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("./assets/styles/variables.css");
+@import url("./assets/styles/header.css");
 
 /*
   1. Use a more-intuitive box-sizing model.
